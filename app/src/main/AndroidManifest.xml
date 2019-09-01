@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.crown.proadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.crown.proadmin.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_pro"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_pro_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.crown.proadmin.LoginActivity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.crown.proadmin.CreateUser.CreateUser"
+            android:label="@string/title_create_account"
+            android:parentActivityName="com.crown.proadmin.MainActivity" />
+        <activity
+            android:name="com.crown.proadmin.AllUsers.AllUsers"
+            android:label="@string/title_all_users"
+            android:parentActivityName="com.crown.proadmin.MainActivity" />
+        <activity android:name="com.crown.proadmin.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

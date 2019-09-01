@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PRO Admin</string>
+
+    <string name="title_all_users">All Users</string>
+    <string name="title_create_account">Create Account</string>
+    <string name="title_account_superuser">Superuser</string>
+    <string name="title_account_staff">Staff</string>
+
+    <string name="alphanumeric">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789</string>
+</resources>
